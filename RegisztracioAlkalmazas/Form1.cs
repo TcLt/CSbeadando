@@ -94,7 +94,7 @@ namespace RegisztracioAlkalmazas
                 //File.WriteAllLines(openFileDialog1.FileName, lista.Items.Cast<string>().ToArray())
                 using (var sw = new StreamWriter(saveFileDialog1.FileName))
                 {
-                    sw.WriteLine("Név ");
+                    sw.WriteLine("Név:");
                     sw.WriteLine(textBox1.Text);
                     sw.WriteLine("Születési dátum:");
                     sw.WriteLine(textBox2.Text);
